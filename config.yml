@@ -1,0 +1,5 @@
+author: "Macklin Underdown"
+title:  "Turn up - A fun way to commit as a pair"
+revealjs_config:
+  transition: "none"
+  progress: false
