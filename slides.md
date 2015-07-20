@@ -95,7 +95,7 @@ Try out [PhotoFunia's Face Swap](https://photofunia.com/effects/face_swap) web a
 ---
 # Configure Gravatar
 
-__macklin+andrew.giang@email.com__
+__macklin+david@email.com__
 
 ![](images/gravatar-add-email.png)
 
