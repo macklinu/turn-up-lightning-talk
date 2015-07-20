@@ -15,7 +15,20 @@ by Macklin Underdown / @macklinu
 
 > -- [How To Create GitHub Avatars For Pairs](https://robots.thoughtbot.com/how-to-create-github-avatars-for-pairs)
 ---
-![](images/most-interesting-man.jpg)
+# :bulb:
+
+[Thoughtbot's pairing article](https://robots.thoughtbot.com/how-to-create-github-avatars-for-pairs)
+
++
+
+the desire to make a command line app with Ruby
+
+=
+---
+<section data-background="images/pairing-places.gif">
+    <h2><span style="background-color: #FFFF00; color: #000;">Turn</span></h2>
+    <h3><span style="background-color: #FFFF00; color: #000;">Commit as a pair in the most exciting way possible.™</span></h3>
+</section>
 ---
 ## turn up
 
@@ -23,21 +36,6 @@ by Macklin Underdown / @macklinu
 
 > -- [UrbanDictionary](http://www.urbandictionary.com/define.php?term=Turn+Up&defid=7045357)
 
----
-# :bulb:
-
-[Thoughtbot's pairing article](https://robots.thoughtbot.com/how-to-create-github-avatars-for-pairs)
-
-+
-
-the desire to make a command line app in Ruby
-
-=
----
-<section data-background="images/pairing-places.gif">
-    <h2><span style="background-color: #FFFF00;">Turn</span></h2>
-    <h3><span style="background-color: #FFFF00;">Commit as a pair in the most exciting way possible.™</span></h3>
-</section>
 ---
 # Driver
 
@@ -123,14 +121,18 @@ $ turn down --for-what
 Determine the driver from global git config properties
 
 ```bash
-$ git config --global --get $PROPERTY
+$ git config --global --get user.name
+$ git config --global --get user.email
 ```
 
-Re-commit as a pair in `.git/hooks/post-commit`
+Use temporary, local git configuration settings while pairing
 
 ```bash
-$ git commit --amend --author=$AUTHOR_STRING --no-edit
+$ git config --local user.name $PAIR_NAME
+$ git config --local user.email $PAIR_EMAIL
 ```
+
+Remove local settings when pairing is complete
 
 ---
 ## :octocat:
