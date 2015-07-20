@@ -137,6 +137,6 @@ Remove local settings when pairing is complete
 ---
 ## :octocat:
 
-[__macklinu/turn__](https://github.com/macklinu/turn)
+[__macklinu/turnt__](https://github.com/macklinu/turnt)
 
 ![](http://media.giphy.com/media/ZMpt6zziAcx6E/giphy.gif)
