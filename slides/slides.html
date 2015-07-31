@@ -1,0 +1,179 @@
+<section>
+
+<h1>Turn up</h1>
+
+<h2>A fun way to commit as a pair</h2>
+
+<p>by Macklin Underdown / <a href="https://github.com/macklinu" class="user-mention">@macklinu</a></p>
+
+</section>
+<section>
+
+<h1>I <img class="emoji" title=":heart:" alt=":heart:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2764.png" align="absmiddle"> pairing</h1>
+
+</section>
+<section>
+
+<h1>Pairing is <img class="emoji" title=":poop:" alt=":poop:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a9.png" align="absmiddle">
+</h1>
+
+</section>
+<section>
+
+<h1>¯\_(ツ)_/¯</h1>
+
+</section>
+<section>
+
+<h1>
+<img class="emoji" title=":information_desk_person:" alt=":information_desk_person:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f481.png" align="absmiddle"> <img class="emoji" title=":speech_balloon:" alt=":speech_balloon:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4ac.png" align="absmiddle">
+</h1>
+
+<blockquote>
+<p>Whether you love or hate pairing, we can all agree that attributing work to both pair partners is a pain.</p>
+
+<p>-- <a href="https://robots.thoughtbot.com/how-to-create-github-avatars-for-pairs">How To Create GitHub Avatars For Pairs</a></p>
+</blockquote>
+
+</section>
+<section>
+
+<h1><img class="emoji" title=":bulb:" alt=":bulb:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a1.png" align="absmiddle"></h1>
+
+<p><a href="https://robots.thoughtbot.com/how-to-create-github-avatars-for-pairs">Thoughtbot's pairing article</a></p>
+
+<p>+</p>
+
+<p>the desire to make a command line app with Ruby</p>
+
+<p>=</p>
+
+</section>
+<section>
+
+<section data-background="images/pairing-places.gif">
+    <h2><span style="background-color: #FFFF00; color: #000;">Turn</span></h2>
+    <h3><span style="background-color: #FFFF00; color: #000;">Commit as a pair in the most exciting way possible.™</span></h3>
+</section>
+
+</section>
+<section>
+
+<h2>turn up</h2>
+
+<blockquote>
+<p>To let loose and have fun.</p>
+
+<p>-- <a href="http://www.urbandictionary.com/define.php?term=Turn+Up&amp;defid=7045357">UrbanDictionary</a></p>
+</blockquote>
+
+</section>
+<section>
+
+<h1>Driver</h1>
+<pre><code class="yaml">:name:   Macklin Underdown
+:github: macklinu
+:email:  macklin@email.com
+</code></pre>
+<p><img src="images/macklin.jpg" alt=""></p>
+
+</section>
+<section>
+
+<h1>Navigator</h1>
+<pre><code class="yaml">:name:   David Klawitter
+:github: davidklaw
+:email:  dave@email.com
+</code></pre>
+<p><img src="images/david.jpg" alt=""></p>
+
+</section>
+<section>
+
+<h1>Pair</h1>
+<pre><code class="yaml">:name:   &lt;driver full name&gt; + &lt;navigator full name&gt;
+:email:  &lt;driver&gt;+&lt;navigator&gt;@email.com
+</code></pre>
+<p><img src="images/macklin-david.jpg" alt=""></p>
+
+</section>
+<section>
+
+<h1>Pair</h1>
+<pre><code class="yaml">:name:   Macklin Underdown + David Klawitter
+:email:  macklin+dave@email.com
+</code></pre>
+<p><img src="images/macklin-david.jpg" alt=""></p>
+
+</section>
+<section>
+
+<h1>Get started</h1>
+
+<p>Create a <code>.pairs.yaml</code> file at the root of your Git repository</p>
+<pre><code class="yaml">:pairs:
+  -
+    :name:   Macklin Underdown
+    :github: macklinu
+    :email:  macklin@email.com
+  -
+    :name:   David Klawitter
+    :github: davidklaw
+    :email:  dave@email.com
+</code></pre>
+</section>
+<section>
+
+<h1>Become one</h1>
+
+<p>Try out <a href="https://photofunia.com/effects/face_swap">PhotoFunia's Face Swap</a> web app</p>
+
+<p><img src="images/macklin-david.jpg" alt=""></p>
+
+</section>
+<section>
+
+<h1>Configure Gravatar</h1>
+
+<p><strong>macklin+david@email.com</strong></p>
+
+<p><img src="images/gravatar-add-email.png" alt=""></p>
+
+</section>
+<section>
+
+<h2>Now you can turn up</h2>
+<pre><code class="bash"># start pairing
+$ turn up --with davidklaw
+$ turn up -w davidklaw
+</code></pre>
+<h2>Or turn down</h2>
+<pre><code class="bash"># stop pairing
+$ turn down
+$ turn down --for-what
+</code></pre>
+</section>
+<section>
+
+<h1>Under the hood</h1>
+
+<p>Determine the driver from global git config properties</p>
+<pre><code class="bash">$ git config --global --get user.name
+$ git config --global --get user.email
+</code></pre>
+<p>Use temporary, local git configuration settings while pairing</p>
+<pre><code class="bash">$ git config --local user.name $PAIR_NAME
+$ git config --local user.email $PAIR_EMAIL
+</code></pre>
+<p>Remove local settings when pairing is complete</p>
+
+</section>
+<section>
+
+<h2><img class="emoji" title=":octocat:" alt=":octocat:" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" align="absmiddle"></h2>
+
+<p><a href="https://github.com/macklinu/turnt"><strong>macklinu/turnt</strong></a></p>
+
+<p><img src="http://media.giphy.com/media/ZMpt6zziAcx6E/giphy.gif" alt=""></p>
+
+</section>
